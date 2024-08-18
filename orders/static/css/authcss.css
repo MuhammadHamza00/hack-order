@@ -1,0 +1,131 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 2rem;
+}
+/* css */
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* Full screen height */
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.9);  /* Semi-transparent background */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
+    padding: 20px;  /* Padding inside the card */
+}
+
+h2.text-center {
+    font-family: 'Arial', sans-serif;  /* Custom font */
+    font-weight: bold;  /* Bold text */
+    color: #333;  /* Darker text color */
+    background-color: #f0f0f0;  /* Light gray background */
+    padding: 10px;  /* Padding around the text */
+    border-radius: 5px;  /* Rounded corners for the heading */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+}
+
+.custom-login-button {
+    background-color: #ff4500;  /* Primary blue */
+    color: white;  /* White text */
+    border: none;  /* No border */
+    padding: 10px 20px;  /* Padding for size */
+    font-size: 16px;  /* Slightly larger font */
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    transition: background-color 0.3s, transform 0.3s;  /* Smooth transitions */
+    width: 100%;  /* Full-width */
+}
+
+.custom-login-button:hover {
+    background-color: #f76d3b;  /* Darker blue on hover */
+    transform: scale(1.05);  /* Slightly enlarge on hover */
+    cursor: pointer;  /* Change cursor on hover */
+}
+
+.custom-login-button:focus {
+    outline: none;  /* Remove focus outline */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);  /* Glowing outline on focus */
+}
+
+p.text-center a {
+    color: #007bff;  /* Primary blue link */
+    text-decoration: none;  /* Remove underline */
+}
+
+p.text-center a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* Full screen height */
+    font-family: 'Arial', sans-serif; 
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);  /* Semi-transparent background */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
+    padding: 20px;  /* Padding inside the card */
+}
+
+h2.text-center {
+    font-family: 'Arial', sans-serif;  /* Custom font */
+    font-weight: bold;  /* Bold text */
+    color: #333;  /* Darker text color */
+    background-color: #f0f0f0;  /* Light gray background */
+    padding: 10px;  /* Padding around the text */
+    border-radius: 5px;  /* Rounded corners for the heading */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+}
+
+.custom-register-button {
+    background-color: #ff4500;  /* Primary blue */
+    color: white;  /* White text */
+    border: none;  /* No border */
+    padding: 10px 20px;  /* Padding for size */
+    font-size: 16px;  /* Slightly larger font */
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    transition: background-color 0.3s, transform 0.3s;  /* Smooth transitions */
+    width: 100%;  /* Full-width */
+}
+
+.custom-register-button:hover {
+    background-color: #c9704f;  /* Darker blue on hover */
+    transform: scale(1.05);  /* Slightly enlarge on hover */
+    cursor: pointer;  /* Change cursor on hover */
+}
+
+.custom-register-button:focus {
+    outline: none;  /* Remove focus outline */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);  /* Glowing outline on focus */
+}
+.testing-credentials {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;  /* Light gray background */
+    padding: 5px;  /* Add padding around the text */
+    border-radius: 8px;  /* Rounded corners */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+}
+
+.testing-credentials .credential {
+    display: block;  /* Each credential on a new line */
+    font-size: 16px;  /* Slightly larger font */
+    color: #007bff;  /* Bootstrap primary color for text */
+}
+
+.testing-credentials strong {
+    font-weight: bold;
+    color: #0056b3;  /* Darker blue for bold text */
+}

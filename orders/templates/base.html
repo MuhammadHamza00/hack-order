@@ -1,0 +1,14 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Order Management{% endblock %}</title>
+    <link href="{% static 'css/authcss.css' %}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css">
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
